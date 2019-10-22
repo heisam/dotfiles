@@ -5,7 +5,6 @@ Manage configuration files for:
 * bash
 * irb
 * git
-* sublime text 3
 
 ## Requirements
 

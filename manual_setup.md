@@ -1,4 +1,4 @@
-# Rails Development Environment on OS X Sierra
+# Rails Development Environment on OS X Mojave
 
 ## Command Line Tools
 
@@ -22,14 +22,13 @@ $ brew tap caskroom/cask
 ## GUI Software
 
 ```bash
-$ brew cask install google-chrome firefox iterm2 sublime-text caffeine google-drive github-desktop sequel-pro spotify imageoptim skype slack superduper qlmarkdown
+$ brew cask install google-chrome firefox iterm2 amphetamine google-drive github-desktop sequel-pro spotify imageoptim skype slack superduper qlmarkdown spectacle visual-studio-code
 ```
 
 ## Rbenv and Ruby
 
 ```bash
-$ brew install rbenv
-$ rbenv init
+$ brew install rbenv ruby-build
 ```
 
 *Add rbenv to bash*
@@ -37,16 +36,17 @@ $ rbenv init
 ```bash
 $ echo 'if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi' >> ~/.bash_profile
 $ source ~/.bash_profile
+$ type rbenv
 ```
 
-*Install Ruby 2.4.1 and set it as the default version*
+*Install Ruby 2.6.5 and set it as the default version*
 
 ```bash
-$ rbenv install 2.4.1
-$ rbenv global 2.4.1
+$ rbenv install 2.6.5
+$ rbenv global 2.6.5
 
 $ ruby -v
-# ruby 2.4.1
+# ruby 2.6.5
 ```
 
 ## bash-it

@@ -1,3 +1,4 @@
+source ~/.profile
 #!/usr/bin/env bash
 
 # Path to the bash it configuration
@@ -48,5 +49,10 @@ export SCM_CHECK=true
 # after enabling or disabling aliases, plugins, and completions.
 # export BASH_IT_AUTOMATIC_RELOAD_AFTER_CONFIG_CHANGE=1
 
+export PATH=/usr/local/bin:$PATH
+
+export PATH="/usr/local/opt/python/libexec/bin:$PATH"
+
 # Load Bash It
 source "$BASH_IT"/bash_it.sh
+export PATH="/usr/local/sbin:$PATH"
